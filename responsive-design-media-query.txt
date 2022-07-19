@@ -1,0 +1,163 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <title>Citation CJ4 Technical Documentation</title>
+   </head>
+   <div id="body">
+    <body>
+     <div id="div-nav">
+      <nav id="navbar">
+          <header><h1>Citation CJ4 Info</h1></header>
+  <ul>
+    <li>
+          <a class="nav-link" href="#overview">Overview</a></li>
+         <li> <a class="nav-link" href="#specifications">Specifications</a></li>
+         <li><a class="nav-link" href="#avionics">Avionics</a></li>
+          <li><a class="nav-link" href="#economics">Economics</a></li>
+          <li><a class="nav-link" href="#references">References</a></li>
+        </nav>
+      </div>
+    <div id="div-main">
+      <main id="main-doc">
+        <section class="main-section" id="overview">
+          <header><h1>Overview</h1></header><hr>
+            <p>The Cessna Citation Jet/CJ series <code>(Model 525)</code> are American turbofan-powered light corporate jets built by the Cessna Aircraft Company in Wichita, Kansas. The Citation brand of business jets encompasses seven distinct families of aircraft. The Model 525 Citation Jet set the groundwork for one of those families, which encompasses the CJ, CJ1, CJ1+, CJ2, CJ2+, CJ3, and CJ4 models. The Cessna Citation CJ4 <code>(Model 525C)</code> is an extension of the CJ3 with an additional two feet of cabin space. It was introduced in 2006, and its first flight took place in Wichita, KS on May 5, 2008. It was first delivered in 2010 and received certification in 2011</p>
+            <p>Powered by the Williams International FJ44-4A engines with 3,621 pounds of thrust, the <code>CE-525C</code> is one of the largest single-pilot type certified aircraft on the market with optional configuration that will seat 9 passengers and 2 crew for a total headcount of 11</p><hr>
+          </section>
+        <section class="main-section" id="specifications">
+          <header><h1>Specifications</h1></header>
+            <p><h2>Speed, Range, and Altitude</h2></p>
+              <li>Max Speed: Mach 0.77 (442 ktas at FL410 and 0 ISA)</li>
+              <li>Max Operating Altitude: FL450</li>
+              <li>Typical Range with IFR reserves: 2,165 nm</li>
+              <li>Max Usable Fuel: 5,828 lbs</li>
+              <p><h2>Dimensions</h2></p>
+              <li>Length: 53' 4"</li>
+              <li>Height: 15' 5"</li>
+              <li>Wingspan: 50' 10"</li>
+              <li>Cabin Width: 58"</li>
+              <li>Cabin Height: 57"</li>
+              <li>Wing Area: 330 sq.in.</li>
+              <li>Wing Loading: 51.8 lb./sq.ft.</li>
+              <p><h2>Weights</h2></p>
+              <li>Max Ramp Weight: 17,220lbs</li>
+              <li>Max Takeoff Weight: 17,110lbs</li>
+              <li>Basic Operating Weight: 10,280lbs</li>
+              <li>Payload at Full Fuel: 1,122lbs</li>
+              <li>Thrust Ratio: 2.36:1</li><hr>
+          </section>
+        <section class="main-section" id="avionics">
+          <header><h1>Avionics</h1></header>
+            <p>The crystal-clear LCD displays of the Collins Pro Line 21 are not touchscreens. Data entry is made through the FMS, and multiple control panels can configure the MFDs and PFDs</p> 
+            <p>The FJ44-4A engines are fadec-controlled, making starts almost as easy as starting a car and engine management as easy as staying in the green</p> 
+            <p>While the CJ4 Gen2 is certified for single-pilot operations, it’s also configured for a two-pilot crew, with full control capabilities and access to the most important systems from both sides</p> <p>Navigation databases are updated through USB ports that are hidden behind a small access door on the panel. The extensive list of features includes TCAS, XM weather, radar, departure and arrival procedures, taxi diagrams with own ship position, systems diagrams, and much more. Digital ATIS and pre-departure clearance capabilities are also available.</p><hr>
+          </section>
+        <section class="main-section" id="economics">
+          <header><h1>Economics</h1></header>
+            <p>Prices for used <code>CJ4s</code> made between 2010 and 2015 range from $5.282 million to $6.621 million—figures that represent retention of 72 to 80 percent of the original value, according to the aircraft pricing service Vref. You’ll pay $800,000 to $1 million more for a comparable vintage Embraer Phenom 300. Pilatus PC-24s, which were first certified in 2017, are relatively new to the market, and the rare used ones being offered are commanding prices that sometimes exceed $9 million—or 105 percent of new. </p>
+            <p>Cessna refreshed the CJ4’s cabin last year and new aircraft are now badged the <code>CJ4 Gen 2</code> and selling for north of $11 million. Added features include new folding airstairs, seating options, ambient lighting, and a galley with improved storage. </p>
+            <p>This all boils down to cost to operate being approximately $2.84 per mile which is about $0.40 per mile more than the very similarly priced Phenom 300</p><hr>
+          </section>
+        <section class="main-section" id="references">
+          <header><h1>References</h1></header>
+            <p><a href="https://www.avbuyer.com/articles/jets-comparison/embraer-phenom-300-vs-cessna-citation-cj4-86734">Avbuyer</p>
+            <p><a href="https://www.bjtonline.com/business-jet-news/cessna-citation-cj4">Business Jet Traveler</p>
+            <p><a href="https://www.flyingmag.com/cessna-citation-cj4-gen2-2/">Flying Magazine</p>
+          </section>
+        </main>
+      </div>
+      </body>
+     </div>
+  </html>
+
+** end of undefined **
+
+** start of undefined **
+
+body{
+  min-width: 250px;
+}
+#div-main{
+  position: absolute;
+  margin-left: 295px;
+  padding: 20px;
+  margin-bottom: 110px;
+  background-color: #eeeeee;
+}
+#div-main h1{
+  font-size: 2.2rem;
+}
+#navbar{
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 297px;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(0, 22, 22, 0.4);
+}
+#div-main h2{
+  font-size: 1.7rem;
+}
+#navbar ul{
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#navbar li{
+  color: #4d4e53;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+#navbar a{
+  display: block;
+  padding: 10px 30px;
+  color: #4d4e53;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-link{
+  text-decoration: none;
+  font-size: 1.5rem;
+  display: block;
+  color: grey;
+}
+#navbar header{
+  text-align: left;
+  padding-left: 25;
+}
+@media only screen and (max-width: 768px) {
+  #navbar ul {
+    border: 1px solid;
+    height: 207px;
+  }
+  #navbar {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 275px;
+    border: none;
+    z-index: 1;
+    border-bottom: 2px solid;
+  }
+  #div-main {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 280px;
+
+
+** end of undefined **
+
